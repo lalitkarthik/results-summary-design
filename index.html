@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;800&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style> -->
+  <style>
+    .btn-secondary :hover {
+      background-color: blue;
+      transition: 0.7s;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container container">
+    <div class="left-container  container">
+
+      <p style="color:hsl(0, 0%, 80%); font-size: 16px;">Your Result</p>
+
+      <div class=" circular-marks">
+        <h6 style="font-weight: 800; font-size: 45px;">76</h6>
+        <p style="font-size: 12px; color: hsl(0, 0%, 75%);">of 100</p>
+      </div>
+      <div class="bottom-left">
+        <h4 style="margin-top: 30px; font-size: 20px;">Great</h4>
+        <p style="color:hsl(0, 0%, 75%) ; text-align:justify;"> You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+    </div>
+
+
+
+    <div class="right-container  container">
+
+      <h6 style="font-weight: 700;"> Summary</h6>
+
+      <div class="Reaction">
+        <p><img src="assets\images\icon-reaction.svg" alt=""> Reaction</p>
+        <p>
+          <span style="font-weight: 800;">80</span> / 100
+        </p>
+      </div>
+      <div class="Memory">
+        <p><img src="assets\images\icon-memory.svg" alt=""> Memory</p>
+        <p>
+          <span style="font-weight: 800;">92</span> / 100
+        </p>
+      </div>
+      <div class="Verbal">
+        <p><img src="assets\images\icon-verbal.svg" alt=""> Verbal</p>
+        <p>
+          <span style="font-weight: 800;">61</span> / 100
+        </p>
+      </div>
+      <div class="Visual">
+        <p><img src="assets\images\icon-visual.svg" alt=""> Visual</p>
+        <p>
+          <span style="font-weight: 800;">72</span> / 100
+        </p>
+      </div>
+
+
+
+
+      <button type="button" class="btn btn-secondary button">Continue</button>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
